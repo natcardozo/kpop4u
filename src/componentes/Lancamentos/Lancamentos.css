@@ -1,0 +1,25 @@
+.lancamentos {
+    width: 1100px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.lancamentos__imagem {
+    width: 100%;
+}
+
+.lancamentos__esquerda {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: calc(50% - 16px);
+}
+
+.lancamentos__direita {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 16px);
+}
