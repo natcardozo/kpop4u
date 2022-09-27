@@ -1,0 +1,28 @@
+.mais-vendidos {
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.mais-vendidos__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0F90A1;
+    margin-bottom: 3rem;
+}
+
+.mais-vendidos__cards {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0F90A1;
+}

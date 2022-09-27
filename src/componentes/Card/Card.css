@@ -1,0 +1,33 @@
+.card {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #00000025;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    padding: 14px;
+    text-align: center;
+}
+
+.card__imagem {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+}
+
+.card__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: .5rem;
+}
+
+.card__subtitulo {
+    margin: 0;
+    margin-bottom: .75rem;
+}
+
+.card__preco {
+    color: #0F90A1;
+    font-size: 18px;
+    font-weight: 700;
+}
