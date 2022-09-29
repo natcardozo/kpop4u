@@ -1,3 +1,4 @@
+import { Person, ShoppingCart } from '@mui/icons-material';
 import "./Cabecalho.css";
 
 export default function Cabecalho() {
@@ -8,8 +9,8 @@ export default function Cabecalho() {
             <p className="cabecalho__item">Categorias</p>
             <p className="cabecalho__item">Sobre Nós</p>
             <p className="cabecalho__item">Contato</p>
-            <img className="cabecalho__perfil" src="/imagens/pessoa1.png" alt="Perfil do usuário" />
-            <img className="cabecalho__carrinho" src="/imagens/carrinho-carrinho1.png" alt="Carrinho de compras" />
+            <Person className="cabecalho__perfil" />
+            <ShoppingCart className="cabecalho__carrinho" />
         </div>
     )
 }
