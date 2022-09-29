@@ -1,0 +1,46 @@
+.rodape {
+    width: 100vw;
+    background-color: #FDFDFD;
+    padding: 2rem 0;
+}
+
+.rodape__conteudo {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape__menu {
+    text-align: center;
+}
+
+.rodape__menu p {
+    color: #0F90A1;
+    line-height: 1rem;
+}
+
+.rodape__contato {
+    text-align: center;
+}
+
+.rodape__contato p {
+    color: #0F90A1;
+    line-height: 1rem;
+}
+
+.rodape__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape__endereco {
+    text-align: right;
+}
+
+.rodape__endereco p {
+    color: #0F90A1;
+    line-height: 1.75rem;
+}
