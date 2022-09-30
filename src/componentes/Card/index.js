@@ -1,7 +1,6 @@
 import "./Card.css";
 
 export default function Card(props) {
-    console.log(props)
     return (
         <div className="card">
             <img className="card__imagem" src={props.imagem} alt={props.album} />
