@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 
 import "./Lancamentos.css";
 
-export default () => {
+export default function Lancamentos() {
   return (
     <div className="lancamentos">
         <Swiper

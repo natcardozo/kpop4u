@@ -57,7 +57,7 @@ export default function MaisVendidos() {
         <div className="mais-vendidos">
             <h3 className="mais-vendidos__titulo">Mais Vendidos</h3>
             <div className="mais-vendidos__cards">
-                {listaDeAlbuns.map((item) => <Card grupo={item.grupo} album={item.album} preco={item.preco} imagem={item.imagem} />)}
+                {listaDeAlbuns.map((item, id) => <Card key={id} grupo={item.grupo} album={item.album} preco={item.preco} imagem={item.imagem} />)}
             </div>
         </div>
     )
