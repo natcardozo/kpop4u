@@ -24,6 +24,12 @@
     border-bottom: 5px solid #F2F2F2;
 }
 
+.cabecalho__visitante {
+    border-bottom: 5px solid transparent;
+    color: #F2F2F2;
+    font-size: 18px;
+}
+
 .cabecalho__perfil, .cabecalho__carrinho {
     color: #F2F2F2;
     cursor: pointer;
